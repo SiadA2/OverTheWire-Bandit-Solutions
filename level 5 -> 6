@@ -12,7 +12,6 @@ User:~$ ssh bandit5@bandit.labs.overthewire.org -p 2220
             More information on http://www.overthewire.org/wargames
 
 bandit5@bandit.labs.overthewire.org's password: <##password obtained from level 4 -> 5>
-
 bandit5@bandit:~$ cd inhere
 bandit5@bandit:~/inhere$ du -b -a | grep 1033
 1033    ./maybehere07/.file2
