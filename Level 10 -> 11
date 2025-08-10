@@ -1,1 +1,18 @@
+#Level 10 -> 11 solution
 
+:~$ ssh bandit10@bandit.labs.overthewire.org -p 2220
+                         _                     _ _ _
+                        | |__   __ _ _ __   __| (_) |_
+                        | '_ \ / _` | '_ \ / _` | | __|
+                        | |_) | (_| | | | | (_| | | |_
+                        |_.__/ \__,_|_| |_|\__,_|_|\__|
+
+
+                      This is an OverTheWire game server.
+            More information on http://www.overthewire.org/wargames
+
+bandit10@bandit.labs.overthewire.org's password: <##password obtained from level 9 -> 10>
+
+bandit10@bandit:~$ base64 -d data.txt
+The password is dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
+bandit10@bandit:~$ exit
