@@ -1,1 +1,26 @@
+#level 1 -> 2 solution
 
+User:~$ ssh bandit1@bandit.labs.overthewire.org -p 2220
+                         _                     _ _ _
+                        | |__   __ _ _ __   __| (_) |_
+                        | '_ \ / _` | '_ \ / _` | | __|
+                        | |_) | (_| | | | | (_| | | |_
+                        |_.__/ \__,_|_| |_|\__,_|_|\__|
+
+
+                      This is an OverTheWire game server.
+            More information on http://www.overthewire.org/wargames
+
+bandit1@bandit.labs.overthewire.org's password: <##password obtained from level 0 -> 1>
+
+
+
+bandit1@bandit:~$ ls -a
+-  .  ..  .bash_logout  .bashrc  .profile
+bandit1@bandit:~$ cat -
+
+bandit1@bandit:~$ cat '-'
+
+bandit1@bandit:~$ cat ./-
+263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+bandit1@bandit:~$ exit
