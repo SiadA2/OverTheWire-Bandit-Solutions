@@ -1,1 +1,26 @@
+#level 2 -> 3 solution
 
+User:~$ ssh bandit2@bandit.labs.overthewire.org -p 2220
+                         _                     _ _ _
+                        | |__   __ _ _ __   __| (_) |_
+                        | '_ \ / _` | '_ \ / _` | | __|
+                        | |_) | (_| | | | | (_| | | |_
+                        |_.__/ \__,_|_| |_|\__,_|_|\__|
+
+
+                      This is an OverTheWire game server.
+            More information on http://www.overthewire.org/wargames
+
+bandit2@bandit.labs.overthewire.org's password: <##password obatined from level 1 -> 2>
+
+bandit2@bandit:~$ ls -a
+.  ..  .bash_logout  .bashrc  .profile  --spaces in this filename--
+bandit2@bandit:~$ cat --spaces in this filename--
+cat: unrecognized option '--spaces'
+Try 'cat --help' for more information.
+bandit2@bandit:~$ cat "--spaces in this filename--"
+cat: unrecognized option '--spaces in this filename--'
+Try 'cat --help' for more information.
+bandit2@bandit:~$ cat "./--spaces in this filename--"
+MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+bandit2@bandit:~$
