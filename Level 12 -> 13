@@ -13,3 +13,47 @@ User:~$ ssh bandit12@bandit.labs.overthewire.org -p 2220
 
 bandit12@bandit.labs.overthewire.org's password: <##password obtained from level 11 - > 12>
 
+bandit12@bandit:~$ cd /
+bandit12@bandit:/$ mktemp -d
+/tmp/tmp.wi4iJ14Azy
+bandit12@bandit:/$ cp /home/bandit12/data.txt /tmp/tmp.wi4iJ14Azy
+bandit12@bandit:/$ cd /tmp/tmp.wi4iJ14Azy
+bandit12@bandit:/tmp/tmp.wi4iJ14Azy$ xxd -r data.txt compressed_data
+bandit12@bandit:/tmp/tmp.wi4iJ14Azy$ mv compressed_data compressed_data.gz
+bandit12@bandit:/tmp/tmp.wi4iJ14Azy$ gzip -d compressed_data.gz
+bandit12@bandit:/tmp/tmp.wi4iJ14Azy$ ls
+compressed_data  data.txt
+bandit12@bandit:/tmp/tmp.wi4iJ14Azy$ mv compressed_data compressed_data.bz
+bandit12@bandit:/tmp/tmp.wi4iJ14Azy$ bzip2 -d compressed_data.bz
+bandit12@bandit:/tmp/tmp.wi4iJ14Azy$ ls
+compressed_data  data.txt
+bandit12@bandit:/tmp/tmp.wi4iJ14Azy$ cat compressed_data | head
+bandit12@bandit:/tmp/tmp.wi4iJ14Azy$ mv compressed_data compressed_data.gz
+bandit12@bandit:/tmp/tmp.wi4iJ14Azy$ gzip -d compressed_data.gz
+bandit12@bandit:/tmp/tmp.wi4iJ14Azy$ ls
+compressed_data  data.txt
+bandit12@bandit:/tmp/tmp.wi4iJ14Azy$ xxd compressed_data | head
+bandit12@bandit:/tmp/tmp.wi4iJ14Azy$ tar -xf compressed_data 
+bandit12@bandit:/tmp/tmp.wi4iJ14Azy$ ls
+compressed_data  data5.bin  data.txt
+bandit12@bandit:/tmp/tmp.wi4iJ14Azy$ xxd data5.bin | head
+bandit12@bandit:/tmp/tmp.wi4iJ14Azy$ tar -xf data5.bin
+bandit12@bandit:/tmp/tmp.wi4iJ14Azy$ ls
+compressed_data  data5.bin  data6.bin  data.txt
+bandit12@bandit:/tmp/tmp.wi4iJ14Azy$ xxd data6.bin | head
+bandit12@bandit:/tmp/tmp.wi4iJ14Azy$ bzip2 -d data6.bin
+bzip2: Can't guess original name for data6.bin -- using data6.bin.out
+bandit12@bandit:/tmp/tmp.wi4iJ14Azy$ ls
+compressed_data  data5.bin  data6.bin.out  data.txt
+bandit12@bandit:/tmp/tmp.wi4iJ14Azy$ xxd data6.bin.out
+bandit12@bandit:/tmp/tmp.wi4iJ14Azy$ tar -xf data6.bin.out
+bandit12@bandit:/tmp/tmp.wi4iJ14Azy$ ls
+compressed_data  data5.bin  data6.bin.out  data8.bin  data.txt
+bandit12@bandit:/tmp/tmp.wi4iJ14Azy$ xxd data8.bin | head
+bandit12@bandit:/tmp/tmp.wi4iJ14Azy$ mv data8.bin data8.gz
+bandit12@bandit:/tmp/tmp.wi4iJ14Azy$ gzip -d data8.gz
+bandit12@bandit:/tmp/tmp.wi4iJ14Azy$ ls
+compressed_data  data5.bin  data6.bin.out  data8  data.txt
+bandit12@bandit:/tmp/tmp.wi4iJ14Azy$ cat data8
+The password is FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
+bandit12@bandit:/tmp/tmp.wi4iJ14Azy$ 
