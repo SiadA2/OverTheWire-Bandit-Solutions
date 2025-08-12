@@ -21,3 +21,8 @@ bandit3@bandit:~/inhere$ ls -a
 bandit3@bandit:~/inhere$ cat ...Hiding-From-You
 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
 bandit3@bandit:~/inhere$ exit
+
+##Here, we must use the -a option mentioned in Level 0 -> 1 alongside the ls command if we 
+want to see the 'inhere' directory and the and the ...Hiding-From-You file. You would still be
+able to run the file regardless, but to avoid confusion further down the line, do build familiarity 
+with this command.
