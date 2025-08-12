@@ -14,9 +14,12 @@ User:~$ ssh bandit7@bandit.labs.overthewire.org -p 2220
 bandit7@bandit.labs.overthewire.org's password: <##password obtained from Level 6 -> 7
 
 bandit7@bandit:~$ vim data.txt
+"millionth dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc"
+
 bandit7@bandit:~$exit
 
-
-
-
-"millionth dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc"
+##The 'vim' command allows you to edit text ('vi' can be used to). It takes you to a page 
+containing all the text for the file which can be edited by pressing 'i' on the keyboard. 
+However, instead of this, we'll use the '/' which allows us to look for specific characters in 
+the file. Once we do this, we can toggle between each instance of said character(s) using either 
+N or n, however, we won't need it for this level since the word we are looking for only occurs once.
