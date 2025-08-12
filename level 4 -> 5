@@ -30,3 +30,11 @@ bandit4@bandit:~/inhere$ file ./*
 bandit4@bandit:~/inhere$ cat ./-file07
 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
 bandit4@bandit:~/inhere$ exit
+
+##Here we are introduced to the 'file' command, which allows us to see the type of any specified file. 
+For more info, enter the man<command> command into the terminal.
+
+##We are also introduced to the './*' argument. The '*' here represents a wildcard. Wildcards tell the 
+machine to read all files within a specified category. For example './*' would tell the machine to look 
+at all files within the working directory, which in this case is /home/bandit4/inhere, and './*.txt' would 
+tell the machine to look at all TEXT files only. 
