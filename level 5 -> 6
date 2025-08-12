@@ -19,3 +19,8 @@ bandit5@bandit:~/inhere$ cat ./maybehere07/.file2
 HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
 bandit5@bandit:~/inhere$ exit
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+##Despite the fact that the description explains that the file must be human-readable and 
+not-executable as well as 1033 bytes in size, the file on line 17 is the only file in the 'inhere'
+directory that is 1033 bytes, so we can assume that it will fit the other two criteria. 
+Because of this, this may not be the best solution for this level and would recommend some 
+extra research to find a better one.
