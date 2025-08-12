@@ -25,7 +25,9 @@ bandit1@bandit:~$ cat ./-
 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
 bandit1@bandit:~$ exit
 
-##Here you can see in lines 20 and 22 that there was no output for each cat command. This because the terminal didn't
+##The ls command with the option -a tells the terminal to show all files and directories, including hidden ones.
+
+##Here you can also see in lines 20 and 22 that there was no output for each cat command. This because the terminal didn't
 recognise this as a file and hence expects standard input from the user. To avoid this, we prefix the file with './' to
 specify to the terminal that this is a file. We can now see that terminal now behaves as expected, printing the contents of the 
 '-' file. 
