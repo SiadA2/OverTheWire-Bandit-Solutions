@@ -1,4 +1,4 @@
-##TROUBLESHOOTING##
+TROUBLESHOOTING
 
 This folder will be used to document directions on how to quickly fix common problems that users may encounter when completing
 the OverThewire Bandit challenges. 
