@@ -24,3 +24,13 @@ Try 'cat --help' for more information.
 bandit2@bandit:~$ cat "./--spaces in this filename--"
 MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
 bandit2@bandit:~$ exit
+
+##Here, we run into the same problem as before, with the terminal not correctly reading the filename, from lines 18
+to 23. However, instead of the terminal expecting standard input, we get the error message "cat: unrecognized option '--spaces'".
+This is because the dash at the start causes the terminal to read this as an option for the cat command, however, as you'll know, 
+'spaces in this filename', isn't a valid option when using the cat command (see man<command>), which triggers the subsequent error message. 
+This means that in order for the filename to be read correctly, we must again prefix the filename with './'.
+
+##Additionally, if we were to input the filename without quotation marks, we would get the error message 'no such file or directory'. This is because 
+the filename contains spaces, so without "", the terminal will read this as sperate files, causing the error message to appear as they wouldn't
+have been created yet. To avoid this, we envelope the filename between quotation marks.
