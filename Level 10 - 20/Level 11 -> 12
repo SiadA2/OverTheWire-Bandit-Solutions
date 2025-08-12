@@ -11,7 +11,7 @@ User:~$ ssh bandit11@bandit.labs.overthewire.org -p 2220
                       This is an OverTheWire game server.
             More information on http://www.overthewire.org/wargames
 
-bandit11@bandit.labs.overthewire.org's password: <##password obtained from previous level 10 -> 11>
+bandit11@bandit.labs.overthewire.org's password: <##password obtained from 10 -> 11>
 
 bandit11@bandit:~$ cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
 The password is 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
