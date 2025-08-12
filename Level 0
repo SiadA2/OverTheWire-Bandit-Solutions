@@ -2,6 +2,7 @@
 
 
 User:~$ ssh bandit0@bandit.labs.overthewire.org -p 2220
+
                          _                     _ _ _
                         | |__   __ _ _ __   __| (_) |_
                         | '_ \ / _` | '_ \ / _` | | __|
@@ -13,3 +14,8 @@ User:~$ ssh bandit0@bandit.labs.overthewire.org -p 2220
             More information on http://www.overthewire.org/wargames
 
 bandit0@bandit.labs.overthewire.org's password: bandit0
+
+##The 'ssh' command in line 4 allows us for a remote, secure connection to the terminal of the host specified in the address. 
+##The -p option specifies the port number of this connection. 
+##NOTE: if you run into any problems, please do have a look at the file named 'Troubleshooting' to see if there are any fixes to your problem. If not,
+then please feel free to look elsewhere on the internet.
