@@ -17,3 +17,8 @@ bandit6@bandit:/$ find / -type f -user bandit7 -group bandit6 -size 33c 2>/dev/n
 bandit6@bandit:/$ cat /var/lib/dpkg/info/bandit7.password
 morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
 bandit6@bandit:/$ exit
+
+
+##The '2>/dev/null' command on line 15 tells the machine to send all error messages to the
+/dev/null file. Passing the command without this will lead to several error messages being 
+displayed with the file that contains the password, making hard to find the correct file.
